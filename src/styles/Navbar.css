@@ -1,4 +1,10 @@
 .top-nav-list li{
     padding: 5px 10px 5px 10px;
-    font-family: 'Satoshi'
+    font-family: 'Satoshi';
+    cursor: pointer;
+}
+.demo-btn{
+    font-family: 'Satoshi';
+    font-size: 13px;
+    font-weight: 400;
 }
