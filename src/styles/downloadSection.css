@@ -1,0 +1,32 @@
+.downloadSection-box{
+    height: 490px;
+    border-radius: 25px;
+    background: #000;
+    margin-bottom: 5em;
+    color: #FFFFFF;
+}
+
+.download-lg-heading{
+    font-family: 'Satoshi';
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left; 
+    /* width: 100%;    */
+}
+
+.download-lg-ryda-heading{
+    font-family: 'Satoshi-bold';
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.download-sm-text{
+    font-family: 'Satoshi';
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}

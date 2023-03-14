@@ -1,0 +1,15 @@
+.reveal-box{
+    transition: 500ms all;
+}
+
+.zero-h{
+    height: 0;
+    transition: 1s all;
+}
+.reveal-box .auto-height{
+    height: auto;
+    transition: 1s all;
+}
+.faq-box{
+    min-height: 300px;
+}

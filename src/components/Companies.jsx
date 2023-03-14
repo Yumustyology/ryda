@@ -19,6 +19,7 @@ function CompaniesLogo() {
       ))}
     </div>
   );
-}
+      }
+// }
 
 export default CompaniesLogo;

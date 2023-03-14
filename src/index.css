@@ -3,10 +3,14 @@
   src: url('./assets/fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf');
 }
 
-:root {
-  line-height: 1.5;
-  font-weight: 400;
+@font-face {
+  font-family: "Satoshi-bold";
+  src: url('./assets/fonts/Satoshi/Fonts/OTF/Satoshi-Bold.otf');
+}
 
+
+:root {
+  font-family:'Satoshi';
   color-scheme: light dark;
   /* color: rgba(255, 255, 255, 0.87); */
   /* background-color: #242424; */
@@ -14,4 +18,37 @@
 
 svg{
   display:inline-flex
+}
+
+
+.fadeLeftMini {
+  animation: fadeLeftMini 1s;
+  animation-fill-mode: both;
+}
+
+.fadeRightMini {
+  animation: fadeRightMini 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeLeftMini {
+  0% {
+    opacity: 0;
+    transform: translate3d(-40%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeRightMini {
+  0% {
+    opacity: 0;
+    transform: translate3d(40%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
 }

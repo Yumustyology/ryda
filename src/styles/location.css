@@ -1,0 +1,27 @@
+.location-box {
+    height: 898px;
+    background-color: #CAD2D3;
+    background-image: url('../assets/img/location.png');
+    background-size: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.location-lg-text {
+    font-family: 'Satoshi';
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.location-sm-text {
+    font-family: 'Satoshi';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
