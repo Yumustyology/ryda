@@ -4,12 +4,14 @@ import Masonry from "react-masonry-css";
 import TestimonialBox from "./testimonialBox";
 
 function Testimonials() {
-  const breakpointColumnsObj = {
-    default: 4,
-    1100: 3,
-    700: 2,
-    500: 1,
-  };
+ const breakpointColumnsObj = {
+  default: 4,
+  3000: 6,
+  2000: 4,
+  1200: 3,
+  1000: 2,
+  500: 1,
+};
   const [showMore, setShowMore] = useState(false);
 
   const toggleShowMore = () => {
