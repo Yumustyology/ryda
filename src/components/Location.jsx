@@ -18,7 +18,7 @@ function Location() {
             className={`
             location-lg-text text-black font-bold text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl hero-bg-text minmd:leading-13`}
           >
-            Location is never a Barrier with us involved in you journey
+            Location is never a Barrier with us involved in your journey
           </h1>
           <p
             className={`

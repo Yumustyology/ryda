@@ -4,7 +4,7 @@ import User from "../assets/img/user.png";
 
 function TestimonialBox({ name, info, occupation }) {
   return (
-    <div className="testimonial-text-box pt-5 pl-4 pr-4">
+    <div className="testimonial-text-box pt-5 pl-4 pr-4 ">
       <p className="text-justify mb-3">{info}</p>
       <div className="flex items-center pb-3">
         <div className="mr-2">

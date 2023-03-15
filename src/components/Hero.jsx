@@ -27,7 +27,7 @@ function Hero() {
             className={`
         hero-lg-text text-black font-bold text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl hero-bg-text minmd:leading-13`}
           >
-            Book Ride or send packages to any location of your choice with ease.
+            Book ride or send packages to any location of your choice with ease.
           </h1>
           <p
             className={`

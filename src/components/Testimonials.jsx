@@ -6,11 +6,15 @@ import TestimonialBox from "./testimonialBox";
 function Testimonials() {
  const breakpointColumnsObj = {
   default: 4,
+  4000: 8,
   3000: 6,
   2000: 4,
-  1200: 3,
+  1500: 4,
+  1470: 3,
+  1115: 2,
   1000: 2,
-  500: 1,
+  // 800: 1,
+  600: 1,
 };
   const [showMore, setShowMore] = useState(false);
 
@@ -26,7 +30,7 @@ function Testimonials() {
         Our Testimonials.
       </h1>
       <div
-        className={`mt-20 mb-10 w-full testimonial-box ${
+        className={`mt-20 mb-10 w-full testimonial-box p-1 ${
           showMore ? "h-auto" : "h-[450px] active"
         } `}
       >
@@ -67,7 +71,7 @@ function Testimonials() {
           />
           <TestimonialBox
             name="Ibrahim"
-            info="Lorem ipsum dolor sit amet consectetur. Risus elementum pulvinar semper sit enim porttitor eu amet pellentesque. Augue gravida habitant cum scelerisque risus massa pulvinar vitae. Nibh massa ac elit arcu viverra eu sit neque. Massa consectetur sed mollis nulla nunc quam dignissim."
+            info="Lorem ipsum dolor sit amet consectetur.Augue gravida habitant cum scelerisque risus massa pulvinar vitae. Nibh massa ac elit arcu viverra eu sit neque Risus elementum pulvinar semper sit enim porttitor eu amet pellentesque. Augue gravida habitant cum scelerisque risus massa pulvinar vitae. Nibh massa ac elit arcu viverra eu sit neque. Massa consectetur sed mollis nulla nunc quam dignissim."
             occupation="Software Dev"
           />
           <TestimonialBox
@@ -82,7 +86,7 @@ function Testimonials() {
           />
           <TestimonialBox
             name="Ibrahim"
-            info="Lorem ipsum dolor sit amet consectetur. Risus elementum pulvinar semper sit enim porttitor eu amet pellentesque. Augue gravida habitant cum scelerisque risus massa pulvinar vitae. Nibh massa ac elit arcu viverra eu sit neque. Massa consectetur sed mollis nulla nunc quam dignissim."
+            info="Lorem ipsum dolor sit amet consectetur. Risus elementum pulvinar semper sit enim porttitor eu amet pellentesque. Augue gravida habitant cum scelerisque risus massa pulvinar vitae. Nibh massa ac elit arcu viverra eu sit neque. Massa consectetur sed mollis nulla nunc quam dignissim, Augue gravida habitant cum scelerisque risus massa pulvinar vitae. Nibh massa ac elit arcu viverra eu sit neque."
             occupation="Software Dev"
           />
            <TestimonialBox

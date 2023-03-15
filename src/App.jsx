@@ -2,6 +2,7 @@ import "./App.css";
 import CompaniesLogo from "./components/Companies";
 import DownloadSection from "./components/DownloadSection";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Location from "./components/Location";
 import Mission from "./components/Mission";
@@ -23,6 +24,7 @@ function App() {
         <Faq />
         <Testimonials />
       </div>
+      <Footer />
     </div>
   );
 }
